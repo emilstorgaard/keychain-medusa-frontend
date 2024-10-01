@@ -60,7 +60,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
       <div className="txt-medium">
         {gift_cards.length > 0 && (
           <div className="flex flex-col mb-4">
-            <Heading className="txt-medium">Gift card(s) applied:</Heading>
+            <Heading className="txt-medium">Gavekort anvendt:</Heading>
             {gift_cards?.map((gc) => (
               <div
                 className="flex items-center justify-between txt-small-plus"
@@ -68,7 +68,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 data-testid="gift-card"
               >
                 <Text className="flex gap-x-1 items-baseline">
-                  <span>Code: </span>
+                  <span>Kode: </span>
                   <span className="truncate" data-testid="gift-card-code">
                     {gc.code}
                   </span>
@@ -90,7 +90,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                   data-testid="remove-gift-card-button"
                 >
                   <Trash size={14} />
-                  <span className="sr-only">Remove gift card from order</span>
+                  <span className="sr-only">Fjern gavekort fra bestilling</span>
                 </button>
               </div>
             ))}
@@ -100,13 +100,13 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
         {appliedDiscount ? (
           <div className="w-full flex items-center">
             <div className="flex flex-col w-full">
-              <Heading className="txt-medium">Discount applied:</Heading>
+              <Heading className="txt-medium">Rabat anvendt:</Heading>
               <div
                 className="flex items-center justify-between w-full max-w-full"
                 data-testid="discount-row"
               >
                 <Text className="flex gap-x-1 items-baseline txt-small-plus w-4/5 pr-1">
-                  <span>Code:</span>
+                  <span>Kode:</span>
                   <span className="truncate" data-testid="discount-code">
                     {discounts[0].code}
                   </span>
@@ -125,7 +125,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 >
                   <Trash size={14} />
                   <span className="sr-only">
-                    Remove discount code from order
+                    Fjern rabatkode fra bestilling
                   </span>
                 </button>
               </div>
@@ -140,7 +140,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 className="txt-medium text-ui-fg-interactive hover:text-ui-fg-interactive-hover"
                 data-testid="add-discount-button"
               >
-                Add gift card or discount code
+                Tilføj gavekort eller rabatkode
               </button>
               <Tooltip content="You can add multiple gift cards, but only one discount code.">
                 <InformationCircleSolid color="var(--fg-muted)" />
@@ -160,7 +160,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                     variant="secondary"
                     data-testid="discount-apply-button"
                   >
-                    Apply
+                    Anvend
                   </SubmitButton>
                 </div>
                 <ErrorMessage
