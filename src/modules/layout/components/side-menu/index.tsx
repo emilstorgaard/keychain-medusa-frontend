@@ -85,8 +85,7 @@ const SideMenu = ({ regions }: { regions: Region[] | null }) => {
                         />
                       </div>
                       <Text className="flex justify-between txt-compact-small">
-                        © {new Date().getFullYear()} Keychain. All rights
-                        reserved.
+                        © {new Date().getFullYear()} Keychain. Alle rettigheder forbeholdes.
                       </Text>
                     </div>
                   </div>

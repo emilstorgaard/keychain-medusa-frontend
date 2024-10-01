@@ -19,11 +19,10 @@ const Register = ({ setCurrentView }: Props) => {
   return (
     <div className="max-w-sm flex flex-col items-center" data-testid="register-page">
       <h1 className="text-large-semi uppercase mb-6">
-        Become a Keychain Member
+        Bliv Keychain Medlem
       </h1>
       <p className="text-center text-base-regular text-ui-fg-base mb-4">
-        Create your Keychain Member profile, and get access to an enhanced
-        shopping experience.
+        Opret din Keychain medlemsprofil, og få adgang til en forbedret shoppingoplevelse.
       </p>
       <form className="w-full flex flex-col" action={formAction}>
         <div className="flex flex-col w-full gap-y-2">
@@ -61,31 +60,31 @@ const Register = ({ setCurrentView }: Props) => {
         </div>
         <ErrorMessage error={message} data-testid="register-error" />
         <span className="text-center text-ui-fg-base text-small-regular mt-6">
-          By creating an account, you agree to Keychain&apos;s{" "}
+          Ved at oprette en konto accepterer du Keychain&apos;s{" "}
           <LocalizedClientLink
             href="/content/privacy-policy"
             className="underline"
           >
             Privacy Policy
           </LocalizedClientLink>{" "}
-          and{" "}
+          og{" "}
           <LocalizedClientLink
             href="/content/terms-of-use"
             className="underline"
           >
-            Terms of Use
+            Brugsbetingelser
           </LocalizedClientLink>
           .
         </span>
-        <SubmitButton className="w-full mt-6" data-testid="register-button">Join</SubmitButton>
+        <SubmitButton className="w-full mt-6" data-testid="register-button">Bliv medlem</SubmitButton>
       </form>
       <span className="text-center text-ui-fg-base text-small-regular mt-6">
-        Already a member?{" "}
+        Er du allerede medlem?{" "}
         <button
           onClick={() => setCurrentView(LOGIN_VIEW.SIGN_IN)}
           className="underline"
         >
-          Sign in
+          Log ind
         </button>
         .
       </span>

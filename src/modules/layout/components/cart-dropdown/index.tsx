@@ -142,7 +142,7 @@ const CartDropdown = ({
                                   data-testid="cart-item-quantity"
                                   data-value={item.quantity}
                                 >
-                                  Quantity: {item.quantity}
+                                  Mængde: {item.quantity}
                                 </span>
                               </div>
                               <div className="flex justify-end">
@@ -159,7 +159,7 @@ const CartDropdown = ({
                             className="mt-1"
                             data-testid="cart-item-remove-button"
                           >
-                            Remove
+                            Fjern
                           </DeleteButton>
                         </div>
                       </div>
@@ -189,7 +189,7 @@ const CartDropdown = ({
                       size="large"
                       data-testid="go-to-cart-button"
                     >
-                      Go to cart
+                      Gå til indkøbskurv
                     </Button>
                   </LocalizedClientLink>
                 </div>
@@ -200,12 +200,12 @@ const CartDropdown = ({
                   <div className="bg-gray-900 text-small-regular flex items-center justify-center w-6 h-6 rounded-full text-white">
                     <span>0</span>
                   </div>
-                  <span>Your shopping bag is empty.</span>
+                  <span>Din kurv er tom.</span>
                   <div>
                     <LocalizedClientLink href="/store">
                       <>
-                        <span className="sr-only">Go to all products page</span>
-                        <Button onClick={close}>Explore products</Button>
+                        <span className="sr-only">Gå til siden med alle produkter</span>
+                        <Button onClick={close}>Udforsk produkter</Button>
                       </>
                     </LocalizedClientLink>
                   </div>

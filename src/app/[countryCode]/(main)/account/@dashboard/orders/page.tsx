@@ -5,8 +5,8 @@ import { listCustomerOrders } from "@lib/data"
 import { notFound } from "next/navigation"
 
 export const metadata: Metadata = {
-  title: "Orders",
-  description: "Overview of your previous orders.",
+  title: "Ordrer",
+  description: "Oversigt over dine tidligere ordrer.",
 }
 
 export default async function Orders() {
@@ -19,10 +19,9 @@ export default async function Orders() {
   return (
     <div className="w-full" data-testid="orders-page-wrapper">
       <div className="mb-8 flex flex-col gap-y-4">
-        <h1 className="text-2xl-semi">Orders</h1>
+        <h1 className="text-2xl-semi">Ordrer</h1>
         <p className="text-base-regular">
-          View your previous orders and their status. You can also create
-          returns or exchanges for your orders if needed.
+          Se dine tidligere ordrer og deres status. Du kan også oprette returneringer eller ombytninger for dine ordrer, hvis det er nødvendigt.
         </p>
       </div>
       <div>

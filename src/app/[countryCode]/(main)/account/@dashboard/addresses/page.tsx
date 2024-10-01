@@ -8,8 +8,8 @@ import { getCustomer, getRegion } from "@lib/data"
 import { headers } from "next/headers"
 
 export const metadata: Metadata = {
-  title: "Addresses",
-  description: "View your addresses",
+  title: "Adresser",
+  description: "Se dine adresser",
 }
 
 export default async function Addresses() {
@@ -25,10 +25,10 @@ export default async function Addresses() {
   return (
     <div className="w-full" data-testid="addresses-page-wrapper">
       <div className="mb-8 flex flex-col gap-y-4">
-        <h1 className="text-2xl-semi">Shipping Addresses</h1>
+        <h1 className="text-2xl-semi">Forsendelsesadresser</h1>
         <p className="text-base-regular">
-          View and update your shipping addresses, you can add as many as you
-          like. Saving your addresses will make them available during checkout.
+          Se og opdater dine forsendelsesadresser, du kan tilføje så mange, du vil.
+          Når du gemmer dine adresser, vil de være tilgængelige under betaling.
         </p>
       </div>
       <AddressBook customer={customer} region={region} />
