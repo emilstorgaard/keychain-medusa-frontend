@@ -37,7 +37,7 @@ export default async function Nav() {
                   scroll={false}
                   data-testid="nav-search-link"
                 >
-                  Search
+                  Søg
                 </LocalizedClientLink>
               )}
               <LocalizedClientLink
@@ -45,7 +45,7 @@ export default async function Nav() {
                 href="/account"
                 data-testid="nav-account-link"
               >
-                Account
+                Konto
               </LocalizedClientLink>
             </div>
             <Suspense
@@ -55,7 +55,7 @@ export default async function Nav() {
                   href="/cart"
                   data-testid="nav-cart-link"
                 >
-                  Cart (0)
+                  Kurv (0)
                 </LocalizedClientLink>
               }
             >
