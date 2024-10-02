@@ -139,7 +139,7 @@ const AddAddress = ({ region }: { region: Region }) => {
                 className="h-10"
                 data-testid="cancel-button"
               >
-                Cancel
+                Annuller
               </Button>
               <SubmitButton data-testid="save-button">Gem</SubmitButton>
             </div>

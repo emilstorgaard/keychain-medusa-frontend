@@ -35,7 +35,7 @@ const Review = ({
             }
           )}
         >
-          Review
+          Overblik
         </Heading>
       </div>
       {isOpen && previousStepsCompleted && (

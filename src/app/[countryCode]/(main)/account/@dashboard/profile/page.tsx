@@ -25,7 +25,7 @@ export default async function Profile() {
   return (
     <div className="w-full" data-testid="profile-page-wrapper">
       <div className="mb-8 flex flex-col gap-y-4">
-        <h1 className="text-2xl-semi">Profile</h1>
+        <h1 className="text-2xl-semi">Profil</h1>
         <p className="text-base-regular">
           Se og opdater dine profiloplysninger, herunder dit navn, e-mail og telefonnummer. Du kan også opdatere din faktureringsadresse eller ændre din adgangskode.
         </p>
