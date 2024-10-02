@@ -103,6 +103,17 @@ export default async function Footer() {
                 </ul>
               </div>
             )}
+            <div className="flex flex-col gap-y-2">
+              <span className="txt-small-plus txt-ui-fg-base">Info</span>
+              <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
+                <li>
+                    kontakt@keychain.dk
+                </li>
+                <li>
+                    +45 2078 2215
+                </li>
+              </ul>
+            </div>
             {/* <div className="flex flex-col gap-y-2">
               <span className="txt-small-plus txt-ui-fg-base">Medusa</span>
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
