@@ -142,7 +142,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
               >
                 Tilføj gavekort eller rabatkode
               </button>
-              <Tooltip content="You can add multiple gift cards, but only one discount code.">
+              <Tooltip content="Du kan tilføje flere gavekort, men kun én rabatkode.">
                 <InformationCircleSolid color="var(--fg-muted)" />
               </Tooltip>
             </Label>
@@ -150,7 +150,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
               <>
                 <div className="flex w-full gap-x-2 items-center">
                   <Input
-                    label="Please enter code"
+                    label="Indtast venligst kode"
                     name="code"
                     type="text"
                     autoFocus={false}
