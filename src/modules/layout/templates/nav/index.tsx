@@ -4,7 +4,6 @@ import { listRegions } from "@lib/data"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import CartButton from "@modules/layout/components/cart-button"
 import SideMenu from "@modules/layout/components/side-menu"
-import { ShoppingCart } from "@medusajs/icons"
 
 export default async function Nav() {
   const regions = await listRegions().then((regions) => regions)
@@ -56,7 +55,7 @@ export default async function Nav() {
                   href="/cart"
                   data-testid="nav-cart-link"
                 >
-                  <ShoppingCart /> (0)
+                  Kurv (0)
                 </LocalizedClientLink>
               }
             >
