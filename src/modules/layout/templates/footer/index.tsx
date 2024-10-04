@@ -110,7 +110,7 @@ export default async function Footer() {
                     kontakt@keychain.dk
                 </li>
                 <li>
-                    +45 2078 2215
+                    +45 20 78 22 15
                 </li>
               </ul>
             </div>
