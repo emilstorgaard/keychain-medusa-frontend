@@ -628,10 +628,10 @@
   resolved "https://registry.npmjs.org/@medusajs/client-types/-/client-types-0.2.5.tgz"
   integrity sha512-jB43v+OWNSVo+9jv4EWShDKy+JGEx/LYRdcC0iS8HQx9eXNqSIsP27R8sRetdxschsuE+bd6K2Lj130DFiOICw==
 
-"@medusajs/icons@*":
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/@medusajs/icons/-/icons-1.1.0.tgz"
-  integrity sha512-90+nCmUq9W4KHgg8XuyiZcp41yRleTqT1Y/OZW+Th8FkCvFd8981ugwu7DYZjnaUvXnBCpsGDQ0zYuJ7sU4QIA==
+"@medusajs/icons@*", "@medusajs/icons@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@medusajs/icons/-/icons-1.2.2.tgz"
+  integrity sha512-yCaEvCJg1GqbJ8eySqe+y3zS8tiE0cK/XNOsgmCHZ3dsu8i6lKvrsGzPVdjAtKlUJ9F2CnBO8dm4oXrg5w+6CA==
 
 "@medusajs/link-modules@^0.2.3":
   version "0.2.3"
